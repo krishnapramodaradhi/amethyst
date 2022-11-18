@@ -1,0 +1,119 @@
+.event {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ccc;
+  width: 8%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.date span {
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+}
+
+.date span:first-child {
+  background-color: #6ac045;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.date span:last-child {
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 3rem;
+  margin-bottom: 0.25rem;
+}
+
+.title small {
+  color: #808080;
+}
+
+.image img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.details {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2fr 1fr;
+  margin-block: 1rem;
+}
+
+.event-details {
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.details h2 {
+  margin-block: 0;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.info p {
+  color: #808080;
+}
+
+.event-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.event-info div:first-child {
+  background-color: #e8fdff;
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.event-info svg {
+  color: #6ac045;
+}
+
+.event-info p,
+.event-info h5 {
+  margin: 0;
+}
+
+.event-info h5 {
+  font-size: 1rem;
+}
+
+.event-info p {
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.actions {
+  padding-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

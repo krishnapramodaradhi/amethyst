@@ -1,0 +1,36 @@
+.container {
+  margin-top: 1rem;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: linear-gradient(0.25turn, #ebffe3, #e8fdff);
+  height: 15rem;
+}
+
+.filter h1 {
+  font-size: 2rem;
+}
+
+.controls {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.control select {
+  background-color: white;
+  font-family: inherit;
+  padding: 0 1rem 0 0;
+  width: 20vw;
+  line-height: inherit;
+  outline: none;
+  padding: 0.65rem 0.25rem;
+  border: 1px solid #eee;
+}

@@ -1,0 +1,42 @@
+.hero {
+  background: linear-gradient(0.25turn, #ebffe3, #e8fdff);
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  margin: 0 auto;
+  width: 35ch;
+  margin-bottom: 2rem;
+}
+
+.hero p {
+  margin: 0 auto;
+  width: 70ch;
+  margin-bottom: 2rem;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 15%;
+  background-color: #6ac045;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.action:hover {
+  box-shadow: 0 2px 8px rgba(0 0 0 /0.33);
+}
+
+.action:active {
+  scale: 0.98;
+}

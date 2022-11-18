@@ -17,3 +17,37 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.btn {
+  width: 100%;
+  background-color: #6ac045;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn:hover {
+  box-shadow: 0 2px 8px rgba(0 0 0 / 0.33);
+}
+
+.btn:active {
+  scale: 0.97;
+}
+
+.accent {
+  border: 1px solid #6ac045;
+  color: #6ac045;
+  background-color: white;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
